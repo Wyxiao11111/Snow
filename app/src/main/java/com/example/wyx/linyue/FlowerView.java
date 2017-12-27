@@ -16,7 +16,7 @@ import android.view.View;
 public class FlowerView extends View {
 
     Bitmap mFlowers = null;
-    MyFlower flowers [] = new MyFlower[50];//50片雪花
+    MyFlower flowers [] = new MyFlower[10];//50片雪花
     private Integer[] offsetX ;
     private Integer[] offsetY ;
     Random r = new Random();

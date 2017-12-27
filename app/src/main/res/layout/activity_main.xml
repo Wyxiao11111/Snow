@@ -2,12 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/mmbac"
     android:orientation="vertical" >
 
     <com.example.wyx.linyue.FlowerView
         android:id="@+id/flowerview"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="match_parent"
+        android:layout_weight="1">
     </com.example.wyx.linyue.FlowerView>
+
+    <Button
+        android:id="@+id/btnPlaySong"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#00000000"
+        android:text="enter" />
 
 </LinearLayout>
